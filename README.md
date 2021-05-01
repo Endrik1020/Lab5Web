@@ -6,7 +6,7 @@ NIM    = 311910088
 Kelas  = TI.19.C.1
 Universitas Pelita Bangsa
 ~~~
-## Langkah-langkah Praktikum
+# Langkah-langkah Praktikum
 Buka aplikasi Visualcode 
 Persiapankan membuat dokumen HTML dengan nama file lab5_javascript.html seperti berikut:
 ~~~
@@ -28,7 +28,7 @@ Persiapankan membuat dokumen HTML dengan nama file lab5_javascript.html seperti 
 ![1](https://user-images.githubusercontent.com/81820421/116763805-077e8a00-aa49-11eb-8cb9-c3e496d1ade7.JPG)
 ![2](https://user-images.githubusercontent.com/81820421/116763977-9f7c7380-aa49-11eb-96b7-5aa113a36b48.JPG)
 　　
-## Javascrip Dasar
+# Javascrip Dasar
 Pemakaian Alert sebagai property window
 ~~~
 <!DOCTYPE  html>
@@ -47,7 +47,7 @@ Pemakaian Alert sebagai property window
 ~~~
 ![3](https://user-images.githubusercontent.com/81820421/116764160-54af2b80-aa4a-11eb-8192-396d959d3407.JPG)
 
-## Pemakaian method dalam objek
+# Pemakaian method dalam objek
 ~~~
 <!DOCTYPE  html>
 <html>
@@ -67,7 +67,7 @@ Percobaan Memakai Javascript<br>
 ~~~
 ![4](https://user-images.githubusercontent.com/81820421/116764252-bd96a380-aa4a-11eb-85b9-9c9d2d611b07.JPG)
 
-## Pemakaian method Prompt
+# Pemakaian method Prompt
 ~~~
 <!DOCTYPE  html>
 <html>
@@ -86,7 +86,7 @@ Percobaan Memakai Javascript<br>
 ~~~
 ![5](https://user-images.githubusercontent.com/81820421/116764490-7361f200-aa4b-11eb-8cbb-7aad65be1eb2.JPG)
 ![6](https://user-images.githubusercontent.com/81820421/116764567-b4f29d00-aa4b-11eb-8281-61e79bb100f8.JPG)
-## Pembuatan fungsi dan cara pemanggilannya
+# Pembuatan fungsi dan cara pemanggilannya
 ~~~
 <!DOCTYPE  html>
 <html>
@@ -102,7 +102,7 @@ Percobaan Memakai Javascript<br>
 </html>
 ~~~
 ![7](https://user-images.githubusercontent.com/81820421/116764699-19156100-aa4c-11eb-86cc-29377657ffea.JPG)
-## Dasar Pemrograman Di Javascript
+# Dasar Pemrograman Di Javascript
 Operasi dasar aritmatika
 ~~~
 <html>
@@ -131,9 +131,9 @@ Operasi dasar aritmatika
 </html>
 ~~~
 ![8](https://user-images.githubusercontent.com/81820421/116764815-8c1ed780-aa4c-11eb-8251-f08d645f9e1b.JPG)
-# Setelah direfresh muncul tulisan aritmatika . klik aritmatika akan muncul seperti ini :
+## Setelah direfresh muncul tulisan aritmatika . klik aritmatika akan muncul seperti ini :
 ![9](https://user-images.githubusercontent.com/81820421/116764922-f768a980-aa4c-11eb-8f94-27e2744020be.JPG)
-## Seleksi kondisi (if..else)
+# Seleksi kondisi (if..else)
 ~~~
 <html>
 <head>
@@ -155,8 +155,9 @@ Operasi dasar aritmatika
 </html>
 ~~~
 ![10](https://user-images.githubusercontent.com/81820421/116764960-3139b000-aa4d-11eb-9ea4-6348b15c4a5f.JPG)
-# klik OK . akan muncul seperti ini 
+## klik OK . akan muncul seperti ini 
 ![11](https://user-images.githubusercontent.com/81820421/116765024-6f36d400-aa4d-11eb-863e-8b4111dffaf2.JPG)
+
 # Penggunaan operator switch untuk seleksi kondisi
 ~~~
 <html>
