@@ -85,6 +85,54 @@ Percobaan Memakai Javascript<br>
 </html>
 ~~~
 ![5](https://user-images.githubusercontent.com/81820421/116764490-7361f200-aa4b-11eb-8cbb-7aad65be1eb2.JPG)
+![6](https://user-images.githubusercontent.com/81820421/116764567-b4f29d00-aa4b-11eb-8281-61e79bb100f8.JPG)
+# Pembuatan fungsi dan cara pemanggilannya
+~~~
+<!DOCTYPE  html>
+<html>
+<head>
+    <title>Contoh program javascript</title>
+    <script language = "javascript">
+    function pesan(){alert ("Memanggil javascript lewat body onload")
+    }
+    </script>
+</head>
+<body onload=pesan()>
+</body>
+</html>
+~~~
+![7](https://user-images.githubusercontent.com/81820421/116764699-19156100-aa4c-11eb-86cc-29377657ffea.JPG)
+# Dasar Pemrograman Di Javascript
+Operasi dasar aritmatika
+~~~
+<html>
+<head>
+    <title>Contoh program javascript</title>
+
+    <script language = "javascript">
+    function test (val1,val2)
+    {   
+        document.write("<br>"+"perkalian : val1*val2 "+"<br>")
+        document.write(val1*val2)
+        document.write("<br>"+"pembagian : val1/val2 "+"<br>")
+        document.write(val1/val2)
+        document.write("<br>"+"penjumlahan : val1+val2 "+"<br>")
+        document.write(val1+val2)
+        document.write("<br>"+"pengurangan : val1-val2 "+"<br>")
+        document.write(val1-val2)
+        document.write("<br>"+"modulus : val1%val2 "+"<br>")
+        document.write(val1%val2)
+    }
+    </script>
+</head>
+<body>
+    <input type="button" name="button1" value="aritmatika" onclick=test(9,4)>
+</body>
+</html>
+~~~
+![8](https://user-images.githubusercontent.com/81820421/116764815-8c1ed780-aa4c-11eb-8251-f08d645f9e1b.JPG)
+
+
 
 
 
