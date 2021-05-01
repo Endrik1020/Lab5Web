@@ -131,6 +131,81 @@ Operasi dasar aritmatika
 </html>
 ~~~
 ![8](https://user-images.githubusercontent.com/81820421/116764815-8c1ed780-aa4c-11eb-8251-f08d645f9e1b.JPG)
+Stelah direfresh muncul tulisan aritmatika . klik aritmatika akan muncul seperti ini :
+![9](https://user-images.githubusercontent.com/81820421/116764922-f768a980-aa4c-11eb-8f94-27e2744020be.JPG)
+# Seleksi kondisi (if..else)
+~~~
+<html>
+<head>
+    <title>Contoh if-else</title>
+</head>
+<body>
+    <script language = "javascript">
+    <!--
+    var nilai = prompt("nilai (0-10): ", 0);
+    var hasil = "";
+    if (nilai >=60)
+    hasil = "lulus";
+    else
+    hasil = "tidak lulus";
+    document.write("hasil: " + hasil);
+    //-->    
+    </script>
+</body>
+</html>
+~~~
+![10](https://user-images.githubusercontent.com/81820421/116764960-3139b000-aa4d-11eb-9ea4-6348b15c4a5f.JPG)
+klik OK . akan muncul seperti ini 
+![11](https://user-images.githubusercontent.com/81820421/116765024-6f36d400-aa4d-11eb-863e-8b4111dffaf2.JPG)
+# Penggunaan operator switch untuk seleksi kondisi
+~~~
+<html>
+<head>
+    <title>Contoh program javascript</title>
+
+    <script language = "javascript">
+    function test ()
+    {
+        vall=window.prompt("input nilai (1-5):")
+        switch (vall)
+        {
+            case "1" :
+                document.write("bilangan satu")
+                break
+            case "2" :
+                document.write("bilangan dua")
+                break
+            case "3" :
+                document.write("bilangan tiga")
+                break
+            case "4" :
+                document.write("bilangan empat")
+                break            
+            case "5" :
+                document.write("bilangan lima")
+                break
+            default :
+                document.write("bilangan lainnya")
+        }
+    }
+    </script>
+</head>
+<body>
+    <input type="button" name="button1" value="switch" onclick=test()>
+</body>
+</html>
+~~~
+![12](https://user-images.githubusercontent.com/81820421/116765130-f5531a80-aa4d-11eb-85a9-70a8d0ce1a9c.JPG)
+lakukan sesuai perintah . kita coba input angka 5 
+![13](https://user-images.githubusercontent.com/81820421/116765152-0c920800-aa4e-11eb-896f-75066af1e50f.JPG)
+Setelah itu akan munculseperti ini 
+![14](https://user-images.githubusercontent.com/81820421/116765162-19aef700-aa4e-11eb-9b75-d9a96f2444d4.JPG)
+
+
+
+
+
+
 
 
 
