@@ -272,8 +272,77 @@ akan muncul seperti ini
 akan muncul seperti ini 
 ![19](https://user-images.githubusercontent.com/81820421/116765706-b8d4ee00-aa50-11eb-9159-82e72bf0ef4b.JPG)
 
+# HTML DOM
+Pilihan menggunakan checkBox dengan perhitungan otomatis
+~~~
+ <!--
+File: daftar_menu.html
+//-->
+<html>
+<head>
+    <title>Daftar Menu</title>
+    <script>
+        function hitung(ele) {
+            var total = document.getElementById('total').value;
+                total = (total ? parseInt(total) : 0);
+            var harga = 0;
 
+            if (ele.checked) {
+                harga = ele.value;
+                total += parseInt(harga);
+            }
+            else {
+                harga = ele.value;
+                if (total > 0)
+                    total -= parseInt(harga);
+            }
+            document.getElementById('total').value = total;
+        }
+    </script>
+</head>
+<body>
+<h1>Daftar Menu Makanan</h1>
+<label><input type="checkbox" value="5000" id="menu1" onclick="hitung(this);" /> Ayam Goreng Rp.5000 </label><br />
+<label><input type="checkbox" value="500" id="menu2" onclick="hitung(this);" /> Tempe Goreng Rp.500 </label><br />
+<label><input type="checkbox" value="2500" id="menu3" onclick="hitung(this);" /> Telur Dadar Rp.2500 </label><hr />
+<strong>Total Bayar : Rp. <input id="total" type="text" /></strong>
+</body>
+</html>
+~~~
+![20](https://user-images.githubusercontent.com/81820421/116765784-36006300-aa51-11eb-89a7-f90e6446d3fc.JPG)
+![21](https://user-images.githubusercontent.com/81820421/116765809-55978b80-aa51-11eb-8726-bbf4c73c32ea.JPG)
 
+# Pertanyaan dan Tugas
+Buat script untuk melakukan validasi pada isian form.
+~~~
+<!DOCTYPE HTML>
+<html>
+<head>
+   <title>Validasi Isian Form</title>
+</head>
+<body>
+   <h1>Validasi Isian Form</h1>
+   <form>
+      <fieldset>
+       <legend>Formulir Pendaftaran</legend>
+       Nama Lengkap:<br>
+         <input type="text" name="nama" required><br>
+       Alamat Email:<br>
+         <input type="email" name="email" required><br>
+       Sandi:<br>
+         <input type="password" name="sandi1" required><br>
+       Sandi (ulangi):<br>
+         <input type="password" name="sandi2" required><br>
+     <br>
+         <input type="submit" value="Kirim">
+    </fieldset>	 
+   </form>
+</body>
+</html>
+~~~
+![22](https://user-images.githubusercontent.com/81820421/116766255-bde76c80-aa53-11eb-9aa2-129879592960.JPG)
+## Jika ada yang belum di isi akan munculseperti ini 
+![23](https://user-images.githubusercontent.com/81820421/116766309-fe46ea80-aa53-11eb-9945-8d8f6713794e.JPG)
 
 
 
