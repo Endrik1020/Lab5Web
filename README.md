@@ -27,8 +27,8 @@ Persiapankan membuat dokumen HTML dengan nama file lab5_javascript.html seperti 
 ~~~
 ![1](https://user-images.githubusercontent.com/81820421/116763805-077e8a00-aa49-11eb-8cb9-c3e496d1ade7.JPG)
 ![2](https://user-images.githubusercontent.com/81820421/116763977-9f7c7380-aa49-11eb-96b7-5aa113a36b48.JPG)
-
-#Javascrip Dasar
+　　
+# Javascrip Dasar
 Pemakaian Alert sebagai property window
 ~~~
 <!DOCTYPE  html>
@@ -47,7 +47,7 @@ Pemakaian Alert sebagai property window
 ~~~
 ![3](https://user-images.githubusercontent.com/81820421/116764160-54af2b80-aa4a-11eb-8192-396d959d3407.JPG)
 
-#Pemakaian method dalam objek
+# Pemakaian method dalam objek
 ~~~
 <!DOCTYPE  html>
 <html>
@@ -66,5 +66,25 @@ Percobaan Memakai Javascript<br>
 </html>
 ~~~
 ![4](https://user-images.githubusercontent.com/81820421/116764252-bd96a380-aa4a-11eb-85b9-9c9d2d611b07.JPG)
+
+# Pemakaian method Prompt
+~~~
+<!DOCTYPE  html>
+<html>
+<head>
+<title>pemasukan data</title>
+</head>
+<body>
+<script language = "javascript">
+<!--
+    var nama = prompt("siapa nama anda?","Endrik Bin Suwarih");
+    document.write("hai ","Endrik Bin Suwarih");
+    //-->
+</script>
+</body>
+</html>
+~~~
+![5](https://user-images.githubusercontent.com/81820421/116764490-7361f200-aa4b-11eb-8cbb-7aad65be1eb2.JPG)
+
 
 
