@@ -197,10 +197,83 @@ Operasi dasar aritmatika
 </html>
 ~~~
 ![12](https://user-images.githubusercontent.com/81820421/116765130-f5531a80-aa4d-11eb-85a9-70a8d0ce1a9c.JPG)
-# Lakukan sesuai perintah . kita coba input angka 5 
+## Lakukan sesuai perintah . kita coba input angka 5 
 ![13](https://user-images.githubusercontent.com/81820421/116765152-0c920800-aa4e-11eb-896f-75066af1e50f.JPG)
-# Setelah itu akan muncul seperti ini 
+## Setelah itu akan muncul seperti ini 
 ![14](https://user-images.githubusercontent.com/81820421/116765162-19aef700-aa4e-11eb-9b75-d9a96f2444d4.JPG)
+
+# Pembuatan Form
+Form Input
+~~~
+<html>
+<head>
+    <title>Contoh program javascript</title>
+
+    <script language = "javascript">
+    function test ()
+    {
+        var val1=document.kirim.T1.value
+        if (val1%2==0)
+            document.kirim.T2.value="bilangan genap"
+        else
+            document.kirim.T2.value="bilangan ganjil"
+    }
+    </script>
+</head>
+<body>
+    <form method="POST" name="kirim">
+        <p>BIL <input type="text" name="T1" size="20">
+        MERUPAKAN BIL <input type="text" name="T2" size="20"></p>
+        <p><input type="button" value="TEBAK" name="B1" onclick=test()></p>
+    </form>
+</body>
+</html>
+~~~
+![15](https://user-images.githubusercontent.com/81820421/116765479-84acfd80-aa4f-11eb-8535-6553ec89320e.JPG)
+![16](https://user-images.githubusercontent.com/81820421/116765526-c8076c00-aa4f-11eb-959d-7461d7770a40.JPG)
+# Form Button
+~~~
+<html>
+<head>
+    <title>Contoh program javascript</title>
+</head>
+<body>
+    <script language = "javascript">
+    <!--
+    function ubahWarnaLB(warna) {
+        document.bgColor = warna;
+    }
+    function ubahWarnaLD(warna) {
+        document.fgColor = warna;
+    }   
+        -->
+    </script>
+    <h1>Tes</h1>
+    <form>
+        <input type="button" value="Latar Belakang Hijau" onClick="ubahWarnaLB('GREEN')">
+        <input type="button" value="Latar Belakang Putih" onClick="ubahWarnaLB('WHITE')">
+        <input type="button" value="Teks Kuning" onClick="ubahWarnaLD('YELLOW')">
+        <input type="button" value="Teks Biru" onClick="ubahWarnaLD('BLUE')">
+    </form>
+    <script language = "javascript">
+    <!--
+     document.write("Dimodifikasi terakhir pada" +
+     document.lastModified);
+    //-->
+    </script>
+</body>
+</html>
+~~~
+![17](https://user-images.githubusercontent.com/81820421/116765610-36e4c500-aa50-11eb-9b96-37446887c93c.JPG)
+## Lakukan percobaan . klik button latar belakang Hijau dan Teks kuning
+akan muncul seperti ini 
+![18](https://user-images.githubusercontent.com/81820421/116765677-875c2280-aa50-11eb-8845-90f8997b3f15.JPG)
+## Lakukan percobaan . klik button latar belakang Putih dan Teks Biru
+akan muncul seperti ini 
+![19](https://user-images.githubusercontent.com/81820421/116765706-b8d4ee00-aa50-11eb-9159-82e72bf0ef4b.JPG)
+
+
+
 
 
 
