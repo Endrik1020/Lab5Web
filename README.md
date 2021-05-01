@@ -341,7 +341,7 @@ Buat script untuk melakukan validasi pada isian form.
 </html>
 ~~~
 ![22](https://user-images.githubusercontent.com/81820421/116766255-bde76c80-aa53-11eb-9aa2-129879592960.JPG)
-## Jika ada yang belum di isi akan munculseperti ini 
+## Jika ada yang belum di isi akan muncul seperti ini 
 ![23](https://user-images.githubusercontent.com/81820421/116766309-fe46ea80-aa53-11eb-9945-8d8f6713794e.JPG)
 
 
